@@ -7,3 +7,4 @@ Task-based Asynchronous Pattern Samples
 3.	WindowsFormsApp3: Actor Pattern 예제
 4.	WindowsFormsApp4: ExecutionContext 예제
 5.	WindowsFormsApp5: "Best Practices in Asynchronous Programming" 기사의 예제
+6.	WindowsFormsApp6: "Pause and Play with Await" 기사의 예제
