@@ -8,3 +8,4 @@ Task-based Asynchronous Pattern Samples
 4.	WindowsFormsApp4: ExecutionContext 예제
 5.	WindowsFormsApp5: "Best Practices in Asynchronous Programming" 기사의 예제
 6.	WindowsFormsApp6: "Pause and Play with Await" 기사의 예제
+7.	WindowsFormsApp7: "Understanding the Costs of the Async and Await" 기사의 예제
