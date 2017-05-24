@@ -118,6 +118,11 @@ namespace WindowsFormsApp8
                 //# In this case, when I call “await Task.Yield”, HandleExceptions will return and Application.Run will execute.
                 //# The remainder of HandleExceptions will then be posted as a continuation to the current SynchronizationContext,
                 //# which means it will be picked up by Application.Run.
+
+                //# await Task.Yield()
+                //# - https://stackoverflow.com/questions/23431595/task-yield-real-usages/23441833#23441833
+                //# - https://stackoverflow.com/questions/22645024/when-would-i-use-task-yield
+                //# - https://stackoverflow.com/questions/20319769/await-task-yield-and-its-alternatives
                 await Task.Yield();
                 await task;
             }
